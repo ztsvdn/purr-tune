@@ -17,36 +17,36 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route
             path="/"
-            element={<App />}
+            element={<App/>}
         >
-            <Route index element={<Navigate to="/loading" replace />} />
+            <Route index element={<Navigate to="/loading" replace/>}/>
             <Route
                 path="loading"
-                element={<Loading />}
+                element={<Loading/>}
             />
             <Route
                 path="main"
-                element={<Main />}
+                element={<Main/>}
             />
             <Route
                 path="generating"
-                element={<Generating />}
+                element={<Generating/>}
             />
             <Route
                 path="results"
-                element={<Results />}
+                element={<Results/>}
             />
         </Route>
-    )
+    ), {basename: "/purr-tune"}
 );
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+    <React.StrictMode>
+        <RouterProvider router={router}/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
