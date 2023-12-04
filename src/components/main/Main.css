@@ -1,0 +1,115 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Main .Content-wrapper-main {
+    min-width: 50vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+/*Cat and text logos*/
+.Main .Logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Main .App-logo {
+    min-width: 320px;
+    height: auto;
+}
+
+.Main .App-cat-logo {
+    width: 178px;
+    height: auto;
+}
+
+/*Textarea and select*/
+.Main .Input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Main .Textarea {
+    width: 580px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.Main .Textarea::-webkit-scrollbar {
+    width: 6px;
+}
+
+.Main .Textarea::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+.Main .Textarea::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    cursor: pointer;
+    width: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+.Main .Select {
+    border-radius: 5px;
+    outline: none;
+    min-height: 40px;
+    width: 100%;
+
+    appearance: none; /* Remove default arrow icon */
+    -webkit-appearance: none; /* Remove default arrow icon for WebKit browsers */
+    -moz-appearance: none;
+}
+
+.Main .Select option {
+    height: 40px;
+    /*background-color: red;*/
+}
+
+.Main .Select option:hover {
+    /*background-color: red;*/
+}
+
+/*Button*/
+.Main .Button {
+    width: 400px;
+    height: 70px;
+    border-radius: 52px;
+    background: #885EB7;
+    color: #FFF;
+    border: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Main .Button:hover {
+    /*background: #563679;*/
+    /*background: #bca4d7;*/
+}
+
+.Main .Button:active {
+    /*background: #563679;*/
+    /*background: #6c4b92;*/
+    filter: brightness(0.8)
+}

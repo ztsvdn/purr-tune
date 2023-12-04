@@ -1,0 +1,13 @@
+.Content-wrapper-loading {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Content-wrapper-loading  .App-logo, .Content-wrapper-loading  .App-spinner {
+    width: 50%;
+    height: auto;
+}

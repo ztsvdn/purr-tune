@@ -1,0 +1,25 @@
+.Content-wrapper-generating {
+    height: 50vh;
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Content-wrapper-generating .App-spinner {
+    width: 50%;
+    max-height: 480px;
+}
+
+.Content-wrapper-generating .Percentage {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 68px;
+}
+
+.Content-wrapper-generating .Generating {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 40px;
+}
+
+

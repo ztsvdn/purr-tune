@@ -1,0 +1,51 @@
+.Content-wrapper-results {
+    min-width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 195px;
+}
+
+.Content-wrapper-results .Play-button {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: #885EB7;
+    border: none;
+    cursor: pointer;
+}
+
+.Content-wrapper-results .Play-icon {
+    margin-left: 20px;
+}
+
+.Content-wrapper-results .Play-button:active, .Content-wrapper-results Play-button:active .Play-icon {
+    filter: brightness(0.8)
+}
+
+.Content-wrapper-results .Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Content-wrapper-results .Text {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.Content-wrapper-results .Icon-button, .Content-wrapper-results .Icon-button:active {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Content-wrapper-results .Icon-button:active .Icon {
+    filter: brightness(0.8);
+}
